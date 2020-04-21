@@ -1,0 +1,113 @@
+@import url("style.css");
+@media all and (max-width: 960px) {
+    .container {
+        width: 100%;
+    }
+    .buttons {
+        display: none;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .service-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }   
+
+    .info-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .copyright-items {
+        flex-direction: column;
+    }
+    .slider-items{
+        flex-direction: column;
+        align-items: center; 
+        justify-content: space-around;
+    }
+    .header-items{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .shout-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .intro-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .info-item{
+        margin-bottom: 10px;
+    }
+    .intro-item{
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .info-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .info-item{
+        margin-bottom: 10px;
+    }
+    .intro-item{
+        margin-bottom: 10px;
+    }
+    .intro-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .service-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .copyright-items {
+        flex-direction: column;
+    }
+    .slider-items{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .header-top{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header-items{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .shout-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
