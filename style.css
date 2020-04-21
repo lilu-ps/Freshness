@@ -34,6 +34,7 @@
     grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
     grid-column-gap: 30px;
     grid-row-gap: 42px;
+    padding-bottom: 50px;
 }
 
 
